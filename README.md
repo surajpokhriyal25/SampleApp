@@ -1,4 +1,5 @@
-# Configure AWS Credential before starting
+# Configure AWS-cli, Terraform and AWS Credential before starting
+Add below in ~/.aws/credentials
 ```
 [AWSProfile]
 aws_access_key_id = 
