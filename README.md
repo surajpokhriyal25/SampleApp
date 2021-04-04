@@ -65,8 +65,8 @@ provider "aws" {
   region  = "eu-west-2" # Setting my region to London. Use your own region here
 }
 
-resource "aws_ecr_repository" "django_ecr_repo" {
-  name = "django-ecr-repo" # Naming my repository
+resource "aws_ecr_repository" "sampleapp_ecr_repo" {
+  name = "sampleapp-ecr-repo" # Naming my repository
 }
 
 
@@ -79,7 +79,7 @@ resource "aws_ecr_repository" "django_ecr_repo" {
 ```
 
 resource "aws_ecs_cluster" "my_cluster" {
-  name = "django-cluster"
+  name = "sampleapp-cluster"
 }
 ```
  
