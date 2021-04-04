@@ -1,0 +1,23 @@
+{
+  "name": "sample-docker-ecs",
+  "version": "1.2.5",
+  "description": "## Sample nodejs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajpokhriyal25/test_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajpokhriyal25/test_app/issues"
+  },
+  "homepage": "https://github.com/surajpokhriyal25/test_app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
