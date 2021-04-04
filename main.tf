@@ -1,5 +1,5 @@
 provider "aws" {
-  region  = "eu-west-2" # Setting my region to London. Use your own region here
+  region  = "us-west-2" 
 }
 
 resource "aws_ecr_repository" "my_first_ecr_repo" {
