@@ -2,10 +2,19 @@
 
 ## Requirements
 
-You need will need Docker installed and running and an internet connexion.
-The configuration was tested with Docker 1.12.3 on Ubuntu 16.04 LTS.
+You need will need Docker installed and running and an internet connection.
+Will need to install below packages.
 
+```
+npm init --y
+npm install express
+```
+You can verify locally that you app is running properly by running below command.
 
+```
+node index.js
+```
+You should see your app at http://localhost:3000/
 
 # Clone the this repo and run terraform apply.
 You will see output in command line for ALB DNS like below.
