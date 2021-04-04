@@ -98,3 +98,8 @@ Create terraform plan & apply as separate steps in code pipeline from below step
 
 First time we can apply terraform to create the long living objects and then after we can create codebuild and intergate it with codepipeline.
 I can further enhance this codepipeline if somemone make changes to github the pipeline will be triggered if the changes are merged to main branch. 
+
+
+It should look something like this,
+Screenshot 2021-04-04 at 12.58.48 PM![image](https://user-images.githubusercontent.com/6733678/113501826-b660a080-9545-11eb-8a72-badb64cacdcd.png)
+
